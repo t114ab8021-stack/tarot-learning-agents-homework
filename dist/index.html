@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#482839"><meta name="description" content="魔法師的學徒：78 張偉特塔羅牌義、圖像觀察與每日抽牌練習。">
+  <title>魔法師的學徒 · 塔羅學習手冊</title>
+  <link rel="icon" href="icon.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="icon-180.png"><link rel="manifest" href="manifest.webmanifest"><link rel="stylesheet" href="style.css">
+  <script defer src="data.js"></script><script defer src="lore.js"></script><script defer src="app.js"></script>
+</head>
+<body>
+  <a class="skip" href="#main">跳至主要內容</a>
+  <aside class="sidebar">
+    <a href="#library" class="brand" aria-label="魔法師的學徒首頁"><span class="brand-symbol">✧</span><span>魔法師的學徒</span></a>
+    <div class="nav-label">你的學習空間</div>
+    <nav aria-label="主選單">
+      <button class="nav-item active" data-view="library"><span data-icon="book"></span>牌義圖書館<span class="nav-count">78</span></button>
+      <button class="nav-item" data-view="practice"><span data-icon="spark"></span>抽牌練習</button>
+      <button class="nav-item" data-view="astrology"><span data-icon="spark"></span>星象指南</button>
+      <button class="nav-item" data-view="favorites"><span data-icon="bookmark"></span>我的收藏<span class="nav-count" id="favorite-count">0</span></button>
+      <button class="nav-item" data-view="journal"><span data-icon="pen"></span>學習筆記<span class="nav-count" id="journal-count">0</span></button>
+    </nav>
+    <div class="sidebar-bottom"><div class="small-orbit">✦</div><p>每張牌，都是一面鏡子。<br>每次練習，都更靠近自己。</p><button class="text-button" id="about-button">關於這本手冊 <span aria-hidden="true">↗</span></button><div class="local-status"><i></i> 個人收藏與筆記存於此裝置</div></div>
+  </aside>
+  <div class="workspace">
+    <header class="topbar"><span class="breadcrumb">學徒手冊 <span>/</span> <b id="breadcrumb-title">牌義圖書館</b></span><div class="topbar-right"><span id="today-label"></span><button id="install-button" class="small-button" hidden>安裝 App</button><span class="avatar" aria-label="學徒">徒</span></div></header>
+    <main id="main" tabindex="-1"></main>
+    <footer class="footer"><span>魔法師的學徒 <span class="footer-star">✦</span> 保持好奇，慢慢讀懂。 <button id="footer-about" class="text-button">關於手冊</button></span><span>偉特塔羅・78 張牌</span></footer>
+  </div>
+  <dialog id="card-dialog" class="card-dialog" aria-labelledby="detail-title"></dialog>
+  <dialog id="info-dialog" class="info-dialog" aria-labelledby="info-title"></dialog>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+</body>
+</html>

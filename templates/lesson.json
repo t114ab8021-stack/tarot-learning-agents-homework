@@ -1,0 +1,15 @@
+{
+  "slug": "your-lesson-slug",
+  "title": "請填寫學習單元名稱",
+  "summary": "用一到兩句說明讀者會學到什麼。",
+  "level": "入門",
+  "minutes": 5,
+  "cardIds": ["major_01"],
+  "sections": [
+    { "heading": "看見什麼", "paragraphs": ["描述可以直接從圖像觀察到的細節。"] },
+    { "heading": "如何聯想", "paragraphs": ["提供可能的理解，避免絕對判斷。"] },
+    { "heading": "回到生活", "paragraphs": ["用具體例子連結自己的經驗。"] }
+  ],
+  "exercise": { "question": "這張牌讓你注意到什麼？", "steps": ["寫下三個圖像細節。", "提出一個開放式問題。"] },
+  "sources": []
+}

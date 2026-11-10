@@ -1,0 +1,12 @@
+{
+  "name": "tarot-learning-agents-homework",
+  "version": "1.0.0",
+  "private": true,
+  "description": "以 AGENTS.md 規範持續擴充的塔羅學習網站課堂作業",
+  "scripts": {
+    "start": "node server.mjs",
+    "build": "node scripts/build-lessons.mjs",
+    "check": "node scripts/check.mjs && node scripts/build-lessons.mjs --check && node scripts/check-links.mjs"
+  },
+  "engines": { "node": ">=18" }
+}
