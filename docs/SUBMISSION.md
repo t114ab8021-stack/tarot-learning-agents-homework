@@ -34,7 +34,7 @@
 
 ## 繳交項目
 
-- 完整 GitHub 儲存庫連結：以 README 的實際發布狀態為準。
-- 可實際瀏覽的作業網站連結：以 README 的實際發布狀態為準。
+- 完整 GitHub 儲存庫：[t114ab8021-stack/tarot-learning-agents-homework](https://github.com/t114ab8021-stack/tarot-learning-agents-homework)。
+- 可實際瀏覽的作業網站：[魔法師的學徒｜學習單元](https://tarot-learning-agents-homework.vercel.app/assignment.html)。
 - AI 協作規則：根目錄 `AGENTS.md`。
 - 驗證證據：`docs/VERIFICATION.md`。

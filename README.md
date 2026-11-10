@@ -16,7 +16,7 @@
 
 ## 發布狀態
 
-- GitHub：尚未發布，等待確認使用帳號。
+- GitHub：[t114ab8021-stack/tarot-learning-agents-homework](https://github.com/t114ab8021-stack/tarot-learning-agents-homework)。
 - 作業網站：[公開作業入口](https://tarot-learning-agents-homework.vercel.app/assignment.html)。使用獨立 Vercel 專案，已發布。
 - 作業入口：`/assignment.html`；App：`/index.html`；規則網頁：`/project-rules.html`。
 
