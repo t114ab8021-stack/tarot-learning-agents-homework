@@ -67,7 +67,7 @@
 
 /* Stable single-screen reading: controls never move when cards change. */
 .practice-page .page-intro,.practice-page .learn-tip,.practice-page .footer,.practice-page .reading-reflection,.practice-page .reading-question,.practice-page .reading-card p,.practice-page .hint-link,.practice-page .reading-table>h2,.practice-page .reading-table>p,.practice-page .deck-back small{display:none}
-.practice-page .practice-layout{height:calc(100dvh - 162px);min-height:360px;max-height:800px;display:grid;grid-template-rows:54px minmax(0,1fr) 76px;gap:0}
+.practice-page .practice-layout{height:calc(100dvh - 162px);min-height:360px;max-height:800px;display:grid;grid-template-columns:minmax(0,1fr);grid-template-rows:54px minmax(0,1fr) 76px;gap:0}
 .practice-page .pool-selector{margin:0 auto;align-self:start}
 .practice-page .reading-table{height:100%;min-height:0;padding:16px;overflow:hidden;margin:0}
 .practice-page .reading-table:before{display:none}
